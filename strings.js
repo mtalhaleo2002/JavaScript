@@ -20,3 +20,14 @@ let x = whereIs('Jacky');
 console.log(x);
 
 // What is x?
+
+function hi(name) {
+  return 'Hi ' + name + '!';
+}
+
+let h1 = hi('Selva');
+let h2 = hi('Pola');
+let y = h1 + ' ' + h2;
+console.log(y);
+
+// What is y?
