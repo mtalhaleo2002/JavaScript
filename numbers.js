@@ -78,3 +78,17 @@ console.log(onesDigit(123)); // Output: 3
 console.log(onesDigit(4567)); // Output: 7
 
 // Modulus Operator and Ones Digit Function
+
+let xa1 = 3 + 4 * 2;
+let xa2 = (3 + 4) * 2;
+console.log(xa1); // Output: 11
+console.log(xa2); // Output: 
+
+function mean(n1,n2){
+ return (n1 + n2)/2;
+}
+
+console.log(mean(10, 20)); // Output: 15
+console.log(mean(5, 15)); // Output: 10
+
+// Arithmetic Operations with Precedence
