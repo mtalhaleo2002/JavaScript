@@ -56,3 +56,11 @@ charNumber = name.length;
 console.log(charNumber);
 
 // Length In Strings
+
+function length(string){
+  return result = string.length;
+}
+
+console.log(length('sun is shining'));
+
+// String Length In Function
