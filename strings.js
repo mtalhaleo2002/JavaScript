@@ -119,3 +119,12 @@ return result.charAt(0)
 console.log(firstChar('   Hello World!   '));
 
 // First Character After Trimming
+
+let n1 = 'bit'.indexOf('it');
+let n2 = 'bit'.indexOf('js');
+let n3 = 'bit'.indexOf('IT');
+console.log(n1);
+console.log(n2);
+console.log(n3);
+
+// Index Of In Strings
