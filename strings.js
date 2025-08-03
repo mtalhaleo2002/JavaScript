@@ -140,3 +140,12 @@ console.log(indexOfIgnoreCase('JavaScript', 'script'));
 console.log(indexOfIgnoreCase('JavaScript', 'JAVA'));
 
 // Index Of In Function
+
+let a1 = 'White Rabbit'.indexOf('it', 1);
+let a2 = 'White Rabbit'.indexOf('it', 3);
+let a3 = 'White Rabbit'.indexOf('it', 5);
+console.log(a1);
+console.log(a2);
+console.log(a3);
+
+// Index Of With Start Position
