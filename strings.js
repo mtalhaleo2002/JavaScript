@@ -92,3 +92,11 @@ console.log(char1);
 console.log(char9);
 
 // Characters In Strings
+
+function shortcut(string,namify){
+  return string.charAt(0) + namify.charAt(0);
+}
+console.log(shortcut('JavaScript', 'Programming'));
+console.log(shortcut('Python', 'Coding'));
+
+// Characters In Strings In Function
