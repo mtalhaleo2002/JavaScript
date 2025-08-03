@@ -1,11 +1,17 @@
 var city = "Porbandar";
-let x = 'Geeta';
+let y = 'Geeta';
 
 console.log(city);
-console.log(x);
+console.log(y);
 
 var city = 'Lubumbashi';
 let country = 'Congo';
 
 console.log(city);
 console.log(country); 
+
+let x = 'Tic';
+x = 'Tac';
+x = 'Toe';
+
+console.log(x);
