@@ -64,3 +64,17 @@ console.log(toFahrenheit(0)); // Output: 32
 console.log(toCelsius(32)); // Output: 0
 
 // Temperature Conversion Functions
+
+let n1 = 7 % 2;
+let n2 = 20 % 3;
+console.log(n1); // Output: 1
+console.log(n2); // Output: 2
+
+function onesDigit(number){
+  return number % 10;
+}
+
+console.log(onesDigit(123)); // Output: 3
+console.log(onesDigit(4567)); // Output: 7
+
+// Modulus Operator and Ones Digit Function
