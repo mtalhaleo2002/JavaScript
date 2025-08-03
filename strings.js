@@ -187,3 +187,12 @@ newstr = 'Dada'.replace('a', 'i');
 console.log(newstr); // Output: Dida
 
 // Replace In Strings
+
+function normalize(string){
+  let newString = string.replace('-', '/');
+  return result = newString.replace('-', '/');
+}
+
+console.log(normalize("2021-10-01"));
+
+// Normalize Date Format
