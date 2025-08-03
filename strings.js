@@ -159,3 +159,13 @@ console.log(secondIndexOf('JavaScript is a programming language', 'a'));
 console.log(secondIndexOf('JavaScript is a programming language', 'Java'));
 
 // Second Index Of In Function
+
+
+let see = 'see and stop'.substr(0, 3);
+console.log(see);
+let and = 'see and stop'.substr(4, 3);
+console.log(and);
+let stop = 'see and stop'.substr(8);
+console.log(stop);
+
+// Substring In Strings
