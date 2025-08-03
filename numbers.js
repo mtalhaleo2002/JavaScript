@@ -92,3 +92,23 @@ console.log(mean(10, 20)); // Output: 15
 console.log(mean(5, 15)); // Output: 10
 
 // Arithmetic Operations with Precedence
+
+let y1 = Math.sqrt(9);
+let y2 = Math.pow(10, 3);
+
+console.log(y1); // Output: 3
+console.log(y2); // Output: 1000
+
+function hypotenuse(n1,n2){
+ let s1 = Math.pow(n1,2);
+ let s2 = Math.pow(n2,2);
+ let result = s1 + s2;
+ return Math.sqrt(result);
+  
+}
+
+console.log(hypotenuse(3, 4)); // Output: 5
+console.log(hypotenuse(5, 12)); // Output: 13
+console.log(hypotenuse(8, 15)); // Output: 17
+
+// Square Root and Power Functions
