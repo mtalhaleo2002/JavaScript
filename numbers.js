@@ -112,3 +112,16 @@ console.log(hypotenuse(5, 12)); // Output: 13
 console.log(hypotenuse(8, 15)); // Output: 17
 
 // Square Root and Power Functions
+
+let min = Math.min(5, 7);
+let max = Math.max(3, 9, 2);
+console.log(min); // Output: 5
+console.log(max); // Output: 9
+
+function midrange(a,b,c){
+ return (Math.min(a,b,c) + Math.max(a,b,c)) /2;
+}
+console.log(midrange(1, 5, 3)); // Output: 3
+console.log(midrange(10, 20, 30)); // Output: 20
+
+// Min, Max, and Midrange Functions
