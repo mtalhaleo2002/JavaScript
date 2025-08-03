@@ -138,3 +138,23 @@ console.log(area(5)); // Output: 78.53981633974483
 console.log(area(10)); // Output: 314.1592653589793
 
 // Constants and Area Calculation
+
+let a = Math.round(5.49);
+let b = Math.round(4.5);
+let c = Math.floor(5.99);
+let d = Math.ceil(4.01);
+
+console.log(a); // Output: 5
+console.log(b); // Output: 5  
+console.log(c); // Output: 5
+console.log(d); // Output: 5
+
+function round100(x) {
+  return Math.round(x / 100) * 100;
+}
+
+console.log(round100(123)); // Output: 100
+console.log(round100(456)); // Output: 500
+console.log(round100(789)); // Output: 800
+
+// Rounding Functions
