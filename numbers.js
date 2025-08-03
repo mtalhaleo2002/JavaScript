@@ -35,3 +35,20 @@ console.log(divide(5, 3)); // Output: 1.666666666
 console.log(modulus(5, 3)); // Output: 2
 
 // Functions to perform arithmetic operations
+
+
+let x = 1;
+x++;
+let y = 10;
+y--;
+
+console.log(x); // Output: 2
+console.log(y); // Output: 9
+
+let s1 = 3;
+s1++;
+s1 = s1 * 2;
+s1--;
+console.log(s1); // Output: 7
+
+// Increment and Decrement Operators
