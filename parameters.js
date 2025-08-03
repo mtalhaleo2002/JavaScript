@@ -24,3 +24,10 @@ add(5, 10);
 console.log(add(5, 10));
 
 // Parameters in functions
+
+function reply(phrase) {
+  return phrase;
+}
+
+let x = reply('How do you do?');
+console.log(x);
