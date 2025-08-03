@@ -100,3 +100,13 @@ console.log(shortcut('JavaScript', 'Programming'));
 console.log(shortcut('Python', 'Coding'));
 
 // Characters In Strings In Function
+
+let input = ' Rosa Parks ';
+let some = input.trim();
+console.log(some);
+let another = input.trimStart();
+console.log(another);
+let yetAnother = input.trimEnd();
+console.log(yetAnother);
+
+// Trimming Strings
