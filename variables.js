@@ -15,3 +15,13 @@ x = 'Tac';
 x = 'Toe';
 
 console.log(x);
+
+
+let n1 = 'Laurel';
+let n2 = 'Hardy';
+let s1 = n2;
+n2 = n1;
+n1 = s1;
+
+console.log(n1);
+console.log(n2);
