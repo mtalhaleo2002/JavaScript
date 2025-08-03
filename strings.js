@@ -47,3 +47,12 @@ a = a + a;
 console.log(a);
 
 // Assignment And Concatenation
+
+let charNumber = 'Ai'.length;
+console.log(charNumber);
+
+let name = 'Weiwei';
+charNumber = name.length;
+console.log(charNumber);
+
+// Length In Strings
