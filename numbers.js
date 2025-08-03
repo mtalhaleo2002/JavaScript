@@ -158,3 +158,13 @@ console.log(round100(456)); // Output: 500
 console.log(round100(789)); // Output: 800
 
 // Rounding Functions
+
+function dice(){
+ let x = Math.random() * 6;
+  return Math.ceil(x);
+}
+
+console.log(dice());
+
+// Random Number Generation
+
