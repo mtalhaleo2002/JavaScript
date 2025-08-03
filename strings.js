@@ -177,3 +177,13 @@ console.log(firstWord("JavaScript is fun"));
 console.log(firstWord("Python is great"));
 
 // First Word In Function
+
+let str = 'JavaScript';
+let newstr = str.replace('Java', 'ECMA');
+
+console.log(newstr); // Output: ECMAScript
+
+newstr = 'Dada'.replace('a', 'i');
+console.log(newstr); // Output: Dida
+
+// Replace In Strings
