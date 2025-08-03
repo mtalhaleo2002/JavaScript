@@ -127,4 +127,16 @@ console.log(n1);
 console.log(n2);
 console.log(n3);
 
-// Index Of In Strings
+// Index Of In 
+
+function indexOfIgnoreCase(string,name){
+  let againName = name.toLowerCase();
+let againString = string.toLowerCase();
+  result = againString.indexOf(againName);
+return result;
+  }
+
+console.log(indexOfIgnoreCase('JavaScript', 'script'));
+console.log(indexOfIgnoreCase('JavaScript', 'JAVA'));
+
+// Index Of In Function
