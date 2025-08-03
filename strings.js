@@ -149,3 +149,13 @@ console.log(a2);
 console.log(a3);
 
 // Index Of With Start Position
+
+function secondIndexOf(string,name){
+  let s1 = string.indexOf(name);
+  return string.indexOf(name, s1 + 1);
+  
+}
+console.log(secondIndexOf('JavaScript is a programming language', 'a'));
+console.log(secondIndexOf('JavaScript is a programming language', 'Java'));
+
+// Second Index Of In Function
