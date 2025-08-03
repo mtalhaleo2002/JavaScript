@@ -110,3 +110,12 @@ let yetAnother = input.trimEnd();
 console.log(yetAnother);
 
 // Trimming Strings
+
+function firstChar(string){
+ result = string.trim();  
+return result.charAt(0)
+}
+
+console.log(firstChar('   Hello World!   '));
+
+// First Character After Trimming
