@@ -64,3 +64,22 @@ function length(string){
 console.log(length('sun is shining'));
 
 // String Length In Function
+
+let town = 'Mthatha';
+let output = town.toUpperCase();
+console.log(output);
+output = town.toLowerCase();
+console.log(output);
+
+// Uppercase And Lowercase
+
+function toCase(string){
+  result = string.toLowerCase();
+  solution = string.toUpperCase();
+  ok = result+ "-"+solution;
+  return ok;
+}
+
+console.log(toCase('JavaScript'));
+
+// Uppercase And Lowercase In Function
