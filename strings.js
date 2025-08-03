@@ -83,3 +83,12 @@ function toCase(string){
 console.log(toCase('JavaScript'));
 
 // Uppercase And Lowercase In Function
+
+let char0 = 'Frantz'.charAt(0);
+let char1 = 'Frantz'.charAt(1);
+let char9 = 'Frantz'.charAt(9);
+console.log(char0);
+console.log(char1);
+console.log(char9);
+
+// Characters In Strings
