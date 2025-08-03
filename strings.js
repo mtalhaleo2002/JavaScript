@@ -40,3 +40,10 @@ let z = double('Roy');
 console.log(z);
 
 // What is z?
+
+let a = 'Tic';
+a = a + 'Tac';
+a = a + a;
+console.log(a);
+
+// Assignment And Concatenation
