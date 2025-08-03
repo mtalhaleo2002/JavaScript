@@ -39,3 +39,12 @@ let salutation = greet();
 console.log(salutation);
 
 // Function Calls
+
+function hello() {
+  return 'Hi!';
+}
+
+let g = hello();
+console.log(g);
+
+// What is g?
