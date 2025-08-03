@@ -124,4 +124,17 @@ function midrange(a,b,c){
 console.log(midrange(1, 5, 3)); // Output: 3
 console.log(midrange(10, 20, 30)); // Output: 20
 
-// Min, Max, and Midrange Functions
+// 
+
+let PiValue = Math.PI;
+let eValue = Math.E;
+console.log(PiValue); // Output: 3.141592653589793
+console.log(eValue); // Output: 2.718281828459045
+
+function area(number) {
+ return Math.PI * number * number;
+}
+console.log(area(5)); // Output: 78.53981633974483
+console.log(area(10)); // Output: 314.1592653589793
+
+// Constants and Area Calculation
