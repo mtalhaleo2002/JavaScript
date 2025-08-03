@@ -52,3 +52,15 @@ s1--;
 console.log(s1); // Output: 7
 
 // Increment and Decrement Operators
+
+
+function toFahrenheit(number){
+return (number * 9/5) + 32
+ }
+function toCelsius(number){
+return (number - 32) * 5/9
+}
+console.log(toFahrenheit(0)); // Output: 32
+console.log(toCelsius(32)); // Output: 0
+
+// Temperature Conversion Functions
