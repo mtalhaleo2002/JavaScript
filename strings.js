@@ -31,3 +31,12 @@ let y = h1 + ' ' + h2;
 console.log(y);
 
 // What is y?
+
+function double(name) {
+  return name + ' and ' + name;
+}
+
+let z = double('Roy');
+console.log(z);
+
+// What is z?
