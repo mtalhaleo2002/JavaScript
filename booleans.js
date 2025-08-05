@@ -28,3 +28,13 @@ console.log(x7);
 console.log(nand(false, true));
 
 // This function returns the logical AND of two boolean values.
+
+
+function xor(a, b){
+  return a && !b || !a && b;
+}
+
+console.log(xor(true, false));
+console.log(xor(false, true));
+console.log(xor(true, true));
+// This function returns the logical XOR of two boolean values.
