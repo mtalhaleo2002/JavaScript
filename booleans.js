@@ -30,6 +30,19 @@ console.log(nand(false, true));
 // This function returns the logical AND of two boolean values.
 
 
+function nor(a,b){
+ let some = a || b;
+return !some;
+}
+
+console.log(nor(true, false));
+console.log(nor(false, false));
+console.log(nor(true, true));
+console.log(nor(false, true));
+
+// This function returns the logical OR of two boolean values.
+
+
 function xor(a, b){
   return a && !b || !a && b;
 }
