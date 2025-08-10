@@ -71,3 +71,9 @@ function unequal(a,b,c){
   return a !== b && b !== c && a!==c;
 }
 // This function checks if three boolean values are not equal.
+
+function isThreeDigit(a){
+  return a >= 100 && a < 1000;
+}
+// This function checks if  number is greater than or equal to 100 and less than 1000.
+
