@@ -66,3 +66,8 @@ function isEven(a){
   return a % 2 === 0;
 }
 // This function checks if a number is even.
+
+function unequal(a,b,c){
+  return a !== b && b !== c && a!==c;
+}
+// This function checks if three boolean values are not equal.
