@@ -51,3 +51,8 @@ console.log(xor(true, false));
 console.log(xor(false, true));
 console.log(xor(true, true));
 // This function returns the logical XOR of two boolean values.
+
+function equals(a,b){
+  return a === b;
+}
+// This function checks if two boolean values are equal.
