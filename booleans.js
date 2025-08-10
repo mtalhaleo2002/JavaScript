@@ -56,3 +56,8 @@ function equals(a,b){
   return a === b;
 }
 // This function checks if two boolean values are equal.
+
+function equals(a,b,c){
+  return a === b && b === c;
+}
+// This function checks if three boolean values are equal.
