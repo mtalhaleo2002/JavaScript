@@ -84,3 +84,12 @@ function equals(a, b) {
 }
 
 // This function checks if two boolean values are equal and returns "EQUAL" or "UNEQUAL".
+
+function repdigit(a) {
+  if (a % 11 === 0) {
+    return "Repdigit!";
+  }
+  return "No Repdigit!";
+}
+
+// This function checks if a number is a repdigit (all digits are the same) and returns "Repdigit!" or "No Repdigit!".
