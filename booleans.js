@@ -93,3 +93,20 @@ function repdigit(a) {
 }
 
 // This function checks if a number is a repdigit (all digits are the same) and returns "Repdigit!" or "No Repdigit!".
+
+function addWithSurcharge(a, b) {
+  if (a <= 10) {
+    a = a + 1;
+  } else {
+    a = a + 2;
+  }
+
+  if (b <= 10) {
+    b = b + 1;
+  } else {
+    b = b + 2;
+  }
+  return a + b;
+}
+
+// This function adds two numbers with a surcharge based on their values. If a number is less than or equal to 10, it adds 1; otherwise, it adds 2 to that number before summing them up.
