@@ -181,3 +181,19 @@ function flat(arr) {
 }
 console.log(flat(teams)); // Output: ['Ruby', 'Angel', 'Mia', 'Yui', 'Merve', 'Elif', 'Saanvi', 'Giulia', 'Zeynep']
 // The flat function takes a 2D array and flattens it into a 1D array by concatenating all inner arrays.
+
+function median(array) {
+  let final = array.length;
+  if (final % 2 === 0) {
+    return (array[final / 2] + array[final / 2 - 1]) / 2;
+  } else if (final === 1) {
+    return array[0];
+  } else {
+    return array[final - 2];
+  }
+}
+
+console.log(median([1, 2, 3, 4, 5])); // Output: 3
+console.log(median([1, 2, 3, 4])); // Output: 2.5
+console.log(median([1])); // Output: 1
+// The median function takes an array and returns the median value. If the array has an even number of elements, it returns the average of the two middle values. If it has an odd number of elements, it returns the middle value. If the array has only one element, it returns that element.
