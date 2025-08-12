@@ -56,3 +56,8 @@ function getLastElement(array) {
   return array[final - 1];
 }
 // The getLastElement function takes an array as an argument and returns its last element.
+
+function sort(array) {
+  return array.sort();
+}
+// The sort function takes an array as an argument and sorts it in ascending order.
