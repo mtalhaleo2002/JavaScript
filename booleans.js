@@ -131,3 +131,39 @@ function addWithSurcharge(a, b) {
   return a + b;
 }
 // This function adds two numbers with a surcharge based on their values. If a number is less than or equal to 10, it adds 1; if it's between 11 and 20, it adds 2; otherwise, it adds 3 to that number before summing them up.
+
+function getDayName(a) {
+  switch (a) {
+    case 1:
+      return "Monday";
+      break;
+
+    case 2:
+      return "Tuesday";
+      break;
+
+    case 3:
+      return "Wednesday";
+      break;
+
+    case 4:
+      return "Thursday";
+      break;
+
+    case 5:
+      return "Friday";
+      break;
+
+    case 6:
+      return "Saturday";
+      break;
+
+    case 7:
+      return "Sunday";
+      break;
+
+    default:
+      return "unknown";
+  }
+}
+// This function returns the name of the day of the week based on a number (1-7). If the number is not in that range, it returns "unknown".
