@@ -110,3 +110,24 @@ function addWithSurcharge(a, b) {
 }
 
 // This function adds two numbers with a surcharge based on their values. If a number is less than or equal to 10, it adds 1; otherwise, it adds 2 to that number before summing them up.
+
+function addWithSurcharge(a, b) {
+  if (a <= 10) {
+    a = a + 1;
+  } else if (a > 10 && a <= 20) {
+    a = a + 2;
+  } else {
+    a = a + 3;
+  }
+
+  if (b <= 10) {
+    b = b + 1;
+  } else if (b > 10 && b <= 20) {
+    b = b + 2;
+  } else {
+    b = b + 3;
+  }
+
+  return a + b;
+}
+// This function adds two numbers with a surcharge based on their values. If a number is less than or equal to 10, it adds 1; if it's between 11 and 20, it adds 2; otherwise, it adds 3 to that number before summing them up.
