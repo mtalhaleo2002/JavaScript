@@ -29,3 +29,15 @@ function getFirstElement(array) {
   return array[0];
 }
 // The getFirstElement function takes an array as an argument and returns its first element.
+
+let languagesProgramming = [];
+languagesProgramming[0] = "C";
+languagesProgramming[1] = "C++";
+languagesProgramming[2] = "Java";
+console.log(languagesProgramming); // Output: ['C', 'C++', 'Java']
+
+function setFirstElement(array, b) {
+  array[0] = b;
+  return array;
+}
+// The setFirstElement function takes an array and a value, sets the first element of the array to the value, and returns the modified array.
