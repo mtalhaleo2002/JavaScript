@@ -105,10 +105,8 @@ console.log(concatUp([1, 2, 3], [4, 5])); // Output: [1, 2, 3, 4, 5]
 console.log(concatUp([1, 2], [3, 4, 5])); // Output: [1, 2, 3, 4, 5]
 console.log(concatUp([1, 2], [3, 4])); // Output: [1, 2, 3, 4]
 
-
-// Shorter Version 
+// Shorter Version
 function concatUp(firstArray, secondArray) {
-
   if (secondArray.length >= firstArray.length) {
     return firstArray.concat(secondArray);
   }
@@ -116,3 +114,18 @@ function concatUp(firstArray, secondArray) {
   return secondArray.concat(firstArray);
 }
 // The concatUp function takes two arrays and concatenates them, ensuring that the longer array comes first in the result.
+
+let abcd = ["a", "b", "c", "d"];
+let ab = abcd.slice(0, 2);
+console.log(ab); // Output: ['a', 'b']
+let bc = abcd.slice(1, 3);
+console.log(bc); // Output: ['b', 'c']
+let bcd = abcd.slice(1, 4);
+console.log(bcd); // Output: ['b', 'c', 'd']
+
+function halve(array) {
+  let halflength = Math.ceil(array.length / 2);
+  return array.slice(0, halflength);
+}
+console.log(halve([1, 2, 3, 4, 5])); // Output: [1, 2, 3]
+// The halve function takes an array and returns a new array containing the first half of the original array, rounding up if the length is odd.
