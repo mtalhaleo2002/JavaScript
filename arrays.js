@@ -61,3 +61,25 @@ function sort(array) {
   return array.sort();
 }
 // The sort function takes an array as an argument and sorts it in ascending order.
+
+let languagesOF = ["C", "Java", "JavaScript"];
+let firstLanguage = languagesOF.shift();
+console.log(firstLanguage); // Output: 'C'
+console.log(languagesOF); // Output: ['Java', 'JavaScript']
+
+let ok = [];
+console.log(ok); // Output: []
+ok.push("C");
+console.log(ok); // Output: ['C']
+ok.push("Java");
+console.log(ok); // Output: ['C', 'Java']
+ok.push("JavaScript");
+console.log(ok); // Output: ['C', 'Java', 'JavaScript']
+
+function rotate(array) {
+  let some = array[0];
+  array.shift();
+  array.push(some);
+  return array;
+}
+// The rotate function takes an array, removes the first element, and appends it to the end of the array.
