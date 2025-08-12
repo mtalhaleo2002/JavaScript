@@ -129,3 +129,28 @@ function halve(array) {
 }
 console.log(halve([1, 2, 3, 4, 5])); // Output: [1, 2, 3]
 // The halve function takes an array and returns a new array containing the first half of the original array, rounding up if the length is odd.
+
+let words = ["Sex", "Drugs", "Rock", "Roll"];
+let s1 = words.join();
+console.log(s1); // Output
+let s2 = words.join(" & ");
+console.log(s2); // Output
+let s3 = words.join(" and ");
+console.log(s3); // Output
+
+function list(array) {
+  let finalWord = array[array.length - 1];
+  let allExceptFinal = array.slice(0, array.length - 1);
+  if (array.length == 0) {
+    return "";
+  }
+
+  if (array.length == 1) {
+    return array[0];
+  }
+  return (concatWord = allExceptFinal.join(", ") + " and " + finalWord);
+}
+console.log(list(["apples", "bananas", "cherries"])); // Output: 'apples, bananas and cherries'
+console.log(list(["apples", "bananas"])); // Output: 'apples and bananas'
+console.log(list(["apples"])); // Output: 'apples'
+// The list function takes an array and returns a string that lists all elements, with the last element preceded by "and".
