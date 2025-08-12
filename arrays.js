@@ -197,3 +197,14 @@ console.log(median([1, 2, 3, 4, 5])); // Output: 3
 console.log(median([1, 2, 3, 4])); // Output: 2.5
 console.log(median([1])); // Output: 1
 // The median function takes an array and returns the median value. If the array has an even number of elements, it returns the average of the two middle values. If it has an odd number of elements, it returns the middle value. If the array has only one element, it returns that element.
+
+function hello(a) {
+  if (a === undefined) {
+    a = "world";
+  }
+
+  return "Hello " + a + "!";
+}
+console.log(hello()); // Output: 'Hello world!'
+console.log(hello("Alice")); // Output: 'Hello Alice!'  
+// The hello function takes an optional argument and returns a greeting. If no argument is provided, it defaults to "world".
