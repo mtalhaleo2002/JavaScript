@@ -16,3 +16,16 @@ function toArray(a, b) {
 }
 console.log(toArray("Hello", "World")); // Output: ['Hello', 'World']
 // The toArray function takes two arguments and returns them as an array.
+
+let language = ["C", "C++", "Java"];
+let d = languages[0];
+let cPlusPlus = languages[1];
+let java = languages[2];
+console.log(d); // Output: 'C'
+console.log(cPlusPlus); // Output: 'C++'
+console.log(java); // Output: 'Java'
+
+function getFirstElement(array) {
+  return array[0];
+}
+// The getFirstElement function takes an array as an argument and returns its first element.
