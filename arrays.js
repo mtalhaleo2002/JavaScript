@@ -41,3 +41,18 @@ function setFirstElement(array, b) {
   return array;
 }
 // The setFirstElement function takes an array and a value, sets the first element of the array to the value, and returns the modified array.
+
+let lang = [];
+let len0 = lang.length;
+lang[0] = "C";
+let len1 = lang.length;
+lang[1] = "C++";
+let len2 = lang.length;
+console.log(len0); // Output: 0
+console.log(len1); // Output: 1
+
+function getLastElement(array) {
+  let final = array.length;
+  return array[final - 1];
+}
+// The getLastElement function takes an array as an argument and returns its last element.
