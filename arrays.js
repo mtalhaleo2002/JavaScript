@@ -84,12 +84,35 @@ function rotate(array) {
 }
 // The rotate function takes an array, removes the first element, and appends it to the end of the array.
 
-
-function add(array,blob){
- if(array.indexOf(blob) === -1){
-  array.push(blob);
-}
- return array;
- 
+function add(array, blob) {
+  if (array.indexOf(blob) === -1) {
+    array.push(blob);
+  }
+  return array;
 }
 // The add function takes an array and a value, checks if the value is not already in the array, and adds it to the end of the array if it's not present.
+
+function concatUp(arr1, arr2) {
+  if (arr1.length > arr2.length) {
+    return arr2.concat(arr1);
+  } else if (arr2.length > arr1.length) {
+    return arr1.concat(arr2);
+  }
+  return arr1.concat(arr2);
+}
+
+console.log(concatUp([1, 2, 3], [4, 5])); // Output: [1, 2, 3, 4, 5]
+console.log(concatUp([1, 2], [3, 4, 5])); // Output: [1, 2, 3, 4, 5]
+console.log(concatUp([1, 2], [3, 4])); // Output: [1, 2, 3, 4]
+
+
+// Shorter Version 
+function concatUp(firstArray, secondArray) {
+
+  if (secondArray.length >= firstArray.length) {
+    return firstArray.concat(secondArray);
+  }
+
+  return secondArray.concat(firstArray);
+}
+// The concatUp function takes two arrays and concatenates them, ensuring that the longer array comes first in the result.
