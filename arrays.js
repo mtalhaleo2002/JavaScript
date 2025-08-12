@@ -83,3 +83,13 @@ function rotate(array) {
   return array;
 }
 // The rotate function takes an array, removes the first element, and appends it to the end of the array.
+
+
+function add(array,blob){
+ if(array.indexOf(blob) === -1){
+  array.push(blob);
+}
+ return array;
+ 
+}
+// The add function takes an array and a value, checks if the value is not already in the array, and adds it to the end of the array if it's not present.
