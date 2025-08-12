@@ -154,3 +154,30 @@ console.log(list(["apples", "bananas", "cherries"])); // Output: 'apples, banana
 console.log(list(["apples", "bananas"])); // Output: 'apples and bananas'
 console.log(list(["apples"])); // Output: 'apples'
 // The list function takes an array and returns a string that lists all elements, with the last element preceded by "and".
+
+let teams = [
+  ["Ruby", "Angel"],
+  ["Mia", "Yui", "Merve", "Elif"],
+  ["Saanvi", "Giulia", "Zeynep"],
+];
+console.log(teams);
+
+let row1 = [4, 9, 2];
+let row2 = [3, 5, 7];
+let row3 = [8, 1, 6];
+let loshu = [row1, row2, row3];
+console.log(loshu);
+
+let team = teams[0];
+console.log(team); // Output: ['Ruby', 'Angel']
+let firstMember = team[0];
+console.log(firstMember); // Output: 'Ruby'
+
+let member = teams[0][0];
+console.log(member); // Output: 'Ruby'
+
+function flat(arr) {
+  return arr[0].concat(arr[1].concat(arr[2]));
+}
+console.log(flat(teams)); // Output: ['Ruby', 'Angel', 'Mia', 'Yui', 'Merve', 'Elif', 'Saanvi', 'Giulia', 'Zeynep']
+// The flat function takes a 2D array and flattens it into a 1D array by concatenating all inner arrays.
